@@ -1,18 +1,18 @@
 public  class Functions {
 	
-	//τεπχφιδ μηιωεα ξωχμ ψφει μβαψ
+	//Χ¤Χ•Χ Χ§Χ¦Χ™Χ” ΧΧ—Χ™Χ©Χ•Χ‘ ΧΧ©Χ§Χ Χ¨Χ¦Χ•Χ™ ΧΧ’Χ‘Χ¨
 	public static int desirableWeightMale(int h)
 	{
 		return	(int)(48 + 1.1 * (h - 152));	
 	}
 
-	//τεπχφιδ μηιωεα ξωχμ ψφει μΰιωδ
+	//Χ¤Χ•Χ Χ§Χ¦Χ™Χ” ΧΧ—Χ™Χ©Χ•Χ‘ ΧΧ©Χ§Χ Χ¨Χ¦Χ•Χ™ ΧΧΧ™Χ©Χ”
 	public static int desirableWeightFemale(int h)
 	{
 				return	(int)(45.4 + 0.9 * (h - 152));
 	}
 	
-	//τεπχφιδ μηιωεδ ξρτψ BMI
+	//Χ¤Χ•Χ Χ§Χ¦Χ™Χ” ΧΧ—Χ™Χ©Χ•Χ” ΧΧ΅Χ¤Χ¨ BMI
 	public static double bmi(int weight,double height )
 	{
 		height/=100;
@@ -26,23 +26,23 @@ public  class Functions {
 		return	temp;
 	}
 	
-	//τεπχφιδ μηιωεα ρθθερ ξωχμ
+	//Χ¤Χ•Χ Χ§Χ¦Χ™Χ” ΧΧ—Χ™Χ©Χ•Χ‘ Χ΅ΧΧΧ•Χ΅ ΧΧ©Χ§Χ
 	public static String status(double bmi) 
 	{
 		String result = null;
 		
 		if( bmi<15)
-			result	="ΰπεψχθι";
+			result	="ΧΧ Χ•Χ¨Χ§ΧΧ™";
 		else if( bmi>=15&&bmi<18.5)
-			result	="ϊϊ ξωχμ";
+			result	="ΧªΧª ΧΧ©Χ§Χ";
 		else if( bmi>18.5&&bmi<25)
-			result	="πεψξμι";
+			result	="Χ Χ•Χ¨ΧΧΧ™";
 		else if( bmi>=25&&bmi<30)
-			result	="ςεγσ ξωχμ";
+			result	="ΧΆΧ•Χ“Χ£ ΧΧ©Χ§Χ";
 		else if( bmi>=30&&bmi<35)
-			result	="ωξο";
+			result	="Χ©ΧΧ";
 		else if( bmi>35)
-			result	="ωξο ξΰεγ";
+			result	="Χ©ΧΧ ΧΧΧ•Χ“";
 
 		return result;
 	}
