@@ -20,4 +20,5 @@
 
 <h3>Screenshot</h3>
 
-![image](https://user-images.githubusercontent.com/76572034/138348638-c5e00010-bd17-4604-a55f-0d35622c6e69.png)
+![BMI](https://user-images.githubusercontent.com/76572034/137974410-4bcaae15-f033-45a4-851b-22484b5f880c.png)
+
