@@ -1,7 +1,7 @@
 # BMI-calculator
 <h2>BMI calculator Oracle</h2>
 
-<h3>Program to calculate BMI according to age, height, and weight.</h3>
+<h3>Program to calculate BMI according to gender, age, height, and weight.</h3>
 
 <h4>Classes Explanation:</h4>
 
